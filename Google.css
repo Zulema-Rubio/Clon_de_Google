@@ -1,0 +1,76 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 222, 212);;
+    text-align: center;
+}
+#Arriba{
+    text-align:right;
+   
+}
+#GOOGLE{
+    padding: 50px;
+}
+
+#input-buscador{
+    width: 600px;
+    height: 24px;
+    color:rgb(255, 222, 212);
+    margin: 30px;
+    
+
+}
+
+#M {
+    font-size: small;
+    padding: 10px;
+    border: 1px solid rgb(201, 204, 204);
+
+    color:black;
+    background-color: rgb(255, 222, 212);
+}
+
+#MM {
+    font-size: small;
+    padding: 10px;
+    border: 1px solid rgb(201, 204, 204);
+    color:black;
+    background-color: rgb(255, 222, 212);
+
+}
+
+.icon-buscador{
+    /*
+    usamos display inline block porque queremos que estén pegaditos la parte de inline y block para que las propiedades de width y heigth sigan haciend efecto y hagn mi icono pequeño
+    */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    /* padding: 8px; */
+    /* padding: 8px 24px; */
+    /* padding: 8px 24px 40px 60px; */
+    padding: 10px;
+}
+
+
+footer ul {
+    
+    display: flex;
+justify-content: space-between;
+justify-content: space-around;
+align-content: flex-end;
+}
+.mex{
+    padding: 50px;
+}
+
