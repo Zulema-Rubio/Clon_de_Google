@@ -4,12 +4,24 @@
     color: rgb(255, 222, 212);;
     text-align: center;
 }
+ header{
+    height: 10vh;
+}
+main{
+    height: 70vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 10vh;
+}
 #Arriba{
     text-align:right;
-   
 }
 #GOOGLE{
-    padding: 50px;
+    padding: 20px;
 }
 
 #input-buscador{
@@ -71,6 +83,7 @@ justify-content: space-around;
 align-content: flex-end;
 }
 .mex{
-    padding: 50px;
+    padding: 5px;
 }
+
 
